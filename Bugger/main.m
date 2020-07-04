@@ -44,6 +44,7 @@ int main ()
         ];
     [window setTitle:[[NSProcessInfo processInfo] processName]];
     [window makeKeyAndOrderFront:nil];
+	[[NSApplication sharedApplication] activateIgnoringOtherApps:true];
     [app run];
     return 0;
 }
