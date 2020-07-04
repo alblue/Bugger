@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Bugger.xcodeproj">
+      location = "self:SwiftBugger.xcodeproj">
    </FileRef>
 </Workspace>

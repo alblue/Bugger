@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FA3175AA24B0CB13000624B3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3175A924B0CB13000624B3 /* main.m */; };
+		FA1528B724B13AC40030B5E0 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1528B624B13AC40030B5E0 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		FA3175A424B0CB13000624B3 /* CopyFiles */ = {
+		FA1528B124B13AC40030B5E0 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FA3175A624B0CB13000624B3 /* Bugger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Bugger; sourceTree = BUILT_PRODUCTS_DIR; };
-		FA3175A924B0CB13000624B3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA1528B324B13AC40030B5E0 /* SwiftBugger */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SwiftBugger; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1528B624B13AC40030B5E0 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FA3175A324B0CB13000624B3 /* Frameworks */ = {
+		FA1528B024B13AC40030B5E0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,65 +38,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FA31759D24B0CB13000624B3 = {
+		FA1528AA24B13AC40030B5E0 = {
 			isa = PBXGroup;
 			children = (
-				FA3175A824B0CB13000624B3 /* Bugger */,
-				FA3175A724B0CB13000624B3 /* Products */,
+				FA1528B524B13AC40030B5E0 /* SwiftBugger */,
+				FA1528B424B13AC40030B5E0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FA3175A724B0CB13000624B3 /* Products */ = {
+		FA1528B424B13AC40030B5E0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA3175A624B0CB13000624B3 /* Bugger */,
+				FA1528B324B13AC40030B5E0 /* SwiftBugger */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FA3175A824B0CB13000624B3 /* Bugger */ = {
+		FA1528B524B13AC40030B5E0 /* SwiftBugger */ = {
 			isa = PBXGroup;
 			children = (
-				FA3175A924B0CB13000624B3 /* main.m */,
+				FA1528B624B13AC40030B5E0 /* main.swift */,
 			);
-			path = Bugger;
+			path = SwiftBugger;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA3175A524B0CB13000624B3 /* Bugger */ = {
+		FA1528B224B13AC40030B5E0 /* SwiftBugger */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA3175AD24B0CB13000624B3 /* Build configuration list for PBXNativeTarget "Bugger" */;
+			buildConfigurationList = FA1528BA24B13AC40030B5E0 /* Build configuration list for PBXNativeTarget "SwiftBugger" */;
 			buildPhases = (
-				FA3175A224B0CB13000624B3 /* Sources */,
-				FA3175A324B0CB13000624B3 /* Frameworks */,
-				FA3175A424B0CB13000624B3 /* CopyFiles */,
+				FA1528AF24B13AC40030B5E0 /* Sources */,
+				FA1528B024B13AC40030B5E0 /* Frameworks */,
+				FA1528B124B13AC40030B5E0 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Bugger;
-			productName = Bugger;
-			productReference = FA3175A624B0CB13000624B3 /* Bugger */;
+			name = SwiftBugger;
+			productName = SwiftBugger;
+			productReference = FA1528B324B13AC40030B5E0 /* SwiftBugger */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FA31759E24B0CB13000624B3 /* Project object */ = {
+		FA1528AB24B13AC40030B5E0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = Me;
 				TargetAttributes = {
-					FA3175A524B0CB13000624B3 = {
+					FA1528B224B13AC40030B5E0 = {
 						CreatedOnToolsVersion = 11.5;
 					};
 				};
 			};
-			buildConfigurationList = FA3175A124B0CB13000624B3 /* Build configuration list for PBXProject "Bugger" */;
+			buildConfigurationList = FA1528AE24B13AC40030B5E0 /* Build configuration list for PBXProject "SwiftBugger" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -104,29 +105,29 @@
 				en,
 				Base,
 			);
-			mainGroup = FA31759D24B0CB13000624B3;
-			productRefGroup = FA3175A724B0CB13000624B3 /* Products */;
+			mainGroup = FA1528AA24B13AC40030B5E0;
+			productRefGroup = FA1528B424B13AC40030B5E0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA3175A524B0CB13000624B3 /* Bugger */,
+				FA1528B224B13AC40030B5E0 /* SwiftBugger */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FA3175A224B0CB13000624B3 /* Sources */ = {
+		FA1528AF24B13AC40030B5E0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FA3175AA24B0CB13000624B3 /* main.m in Sources */,
+				FA1528B724B13AC40030B5E0 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		FA3175AB24B0CB13000624B3 /* Debug */ = {
+		FA1528B824B13AC40030B5E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -181,10 +182,12 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		FA3175AC24B0CB13000624B3 /* Release */ = {
+		FA1528B924B13AC40030B5E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -232,51 +235,57 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		FA3175AE24B0CB13000624B3 /* Debug */ = {
+		FA1528BB24B13AC40030B5E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
-		FA3175AF24B0CB13000624B3 /* Release */ = {
+		FA1528BC24B13AC40030B5E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA3175A124B0CB13000624B3 /* Build configuration list for PBXProject "Bugger" */ = {
+		FA1528AE24B13AC40030B5E0 /* Build configuration list for PBXProject "SwiftBugger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA3175AB24B0CB13000624B3 /* Debug */,
-				FA3175AC24B0CB13000624B3 /* Release */,
+				FA1528B824B13AC40030B5E0 /* Debug */,
+				FA1528B924B13AC40030B5E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA3175AD24B0CB13000624B3 /* Build configuration list for PBXNativeTarget "Bugger" */ = {
+		FA1528BA24B13AC40030B5E0 /* Build configuration list for PBXNativeTarget "SwiftBugger" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FA3175AE24B0CB13000624B3 /* Debug */,
-				FA3175AF24B0CB13000624B3 /* Release */,
+				FA1528BB24B13AC40030B5E0 /* Debug */,
+				FA1528BC24B13AC40030B5E0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FA31759E24B0CB13000624B3 /* Project object */;
+	rootObject = FA1528AB24B13AC40030B5E0 /* Project object */;
 }

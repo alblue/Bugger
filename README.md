@@ -22,7 +22,7 @@ Reproducing the bug
 $ git clone https://github.com/alblue/Bugger.git
 $ cd Bugger
 $ xcodebuild
-$ ./build/Release/Bugger
+$ ./build/Release/SwiftBugger
 ```
 
 Attempt to click on the newly launched app's menu to quit; it can't be selected.
