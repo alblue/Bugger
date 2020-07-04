@@ -18,10 +18,12 @@ then equivalent fixes could be upstreamed.
 Reproducing the bug
 -------------------
 
+```sh
 $ git clone https://github.com/alblue/Bugger.git
 $ cd Bugger
 $ xcodebuild
 $ ./build/Release/Bugger
+```
 
 Attempt to click on the newly launched app's menu to quit; it can't be selected.
 Switch to another app with Cmd+Tab or equivalent.
