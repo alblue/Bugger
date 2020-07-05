@@ -29,3 +29,13 @@ Attempt to click on the Apple logo on the top left; you can't.
 Switch to another app with Cmd+Tab or equivalent.
 Switch back to the Bugger app and then you can click on the menu.
 
+
+Make
+----
+
+There is a simple makefile to allow differnet modes of execution to be tested.
+
+* make clean - cleans the repo
+* make build - builds the MinimalBug executable
+* make run - runs the application from terminal: ./build/Release/MinimalBug
+* make app - runs the application via launch services: open MininalBug.app
