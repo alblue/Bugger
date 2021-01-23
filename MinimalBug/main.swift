@@ -7,11 +7,11 @@ import AppKit
 class Delegate: NSObject, NSApplicationDelegate {
 	func applicationDidFinishLaunching(_ notification: Notification) {
 		app.activate(ignoringOtherApps: true)
+        app.setActivationPolicy(.regular)
 	}
 }
 
 var app = NSApplication.shared
-app.setActivationPolicy(.regular)
 let delegate = Delegate()
 app.delegate = delegate
 app.run()
